@@ -2,11 +2,11 @@ name: Build Kernel
 
 on:
   push:
-    branches: main
+    branches: dev
 
 env:
-  KERNEL: https://github.com/HydrogenKernel/Hydrogen
-  KERNEL_BRANCH: main
+  KERNEL: https://github.com/arcovery/android_kernel_xiaomi_sm8150
+  KERNEL_BRANCH: dev
 
 jobs:
   build:
